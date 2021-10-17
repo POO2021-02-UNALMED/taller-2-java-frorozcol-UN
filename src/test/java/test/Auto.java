@@ -13,7 +13,7 @@ public class Auto {
 		int cant = 0;
 		for(Asiento asiento:asientos){
 			if(asiento != null){
-				cant++
+				cant++;
 			}
 		}
 		return cant;
