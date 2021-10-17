@@ -23,8 +23,10 @@ public class Auto {
 		String mensaje ="Las piezas no son originales";
 		if(registro == motor.registro) {
 			for(Asiento asiento:asientos) {
-				if(registro != asiento.registro) {
-					mensaje = "Las piezas no son originales";
+				if(asiento != null) {
+					if(registro != asiento.registro) {
+						return mensaje;
+					}
 				}
 			}
 			mensaje = "Auto original";
