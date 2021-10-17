@@ -16,7 +16,7 @@ public class Auto {
 				cant++
 			}
 		}
-		return cant
+		return cant;
 	}
 	
 	String verificarIntegridad() {
